@@ -3,7 +3,8 @@
 site 'http://community.opscode.com/api/v1'
 
 cookbook 'pivotal_ci',
-         git: 'https://github.com/pivotal/lobot.git',
+         git: 'https://github.com/hiremaga/lobot.git',
+         ref: 'metadata-dependencies',
          path: 'chef/cookbooks/pivotal_ci'
 
 %w[

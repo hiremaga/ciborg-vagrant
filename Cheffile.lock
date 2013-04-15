@@ -4,12 +4,33 @@ SITE
     openssl (1.0.2)
 
 GIT
-  remote: https://github.com/pivotal/lobot.git
+  remote: https://github.com/hiremaga/lobot.git
   path: chef/cookbooks/pivotal_ci
-  ref: master
-  sha: 86dc5627da69f66a99c21f93c25f863debab4a5d
+  ref: metadata-dependencies
+  sha: 8f13251b0a65ca0b943255f7375514e24b378b1f
   specs:
     pivotal_ci (0.1.0)
+      build-essential (>= 0.0.0)
+      chromium (>= 0.0.0)
+      cmake (>= 0.0.0)
+      firefox (>= 0.0.0)
+      imagemagick (>= 0.0.0)
+      libffi (>= 0.0.0)
+      libgdbm (>= 0.0.0)
+      libncurses (>= 0.0.0)
+      libossp-uuid (>= 0.0.0)
+      libqt4 (>= 0.0.0)
+      mysql (>= 0.0.0)
+      networking_basic (>= 0.0.0)
+      nodejs (>= 0.0.0)
+      openssl (>= 0.0.0)
+      phantomjs (>= 0.0.0)
+      postgresql (>= 0.0.0)
+      ragel (>= 0.0.0)
+      ramfs (>= 0.0.0)
+      sysctl (>= 0.0.0)
+      unarchivers (>= 0.0.0)
+      xserver (>= 0.0.0)
 
 PATH
   remote: vendor/travis-cookbooks/ci_environment/build-essential
