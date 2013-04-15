@@ -1,0 +1,32 @@
+# encoding: utf-8
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'pivotal_ci',
+         git: 'https://github.com/pivotal/lobot.git',
+         path: 'chef/cookbooks/pivotal_ci'
+
+%w[
+  build-essential
+  chromium
+  cmake
+  firefox
+  imagemagick
+  libffi
+  libgdbm
+  libncurses
+  libossp-uuid
+  libqt4
+  mysql
+  networking_basic
+  nodejs
+  phantomjs
+  postgresql
+  ragel
+  ramfs
+  sysctl
+  unarchivers
+  xserver
+].each do |travis_cookbook|
+  cookbook travis_cookbook, path: "vendor/travis-cookbooks/ci_environment/#{travis_cookbook}"
+end

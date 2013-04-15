@@ -1,0 +1,137 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    openssl (1.0.2)
+
+GIT
+  remote: https://github.com/pivotal/lobot.git
+  path: chef/cookbooks/pivotal_ci
+  ref: master
+  sha: 86dc5627da69f66a99c21f93c25f863debab4a5d
+  specs:
+    pivotal_ci (0.1.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/build-essential
+  specs:
+    build-essential (1.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/chromium
+  specs:
+    chromium (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/cmake
+  specs:
+    cmake (1.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/firefox
+  specs:
+    firefox (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/imagemagick
+  specs:
+    imagemagick (0.2.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/libffi
+  specs:
+    libffi (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/libgdbm
+  specs:
+    libgdbm (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/libncurses
+  specs:
+    libncurses (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/libossp-uuid
+  specs:
+    libossp-uuid (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/libqt4
+  specs:
+    libqt4 (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/mysql
+  specs:
+    mysql (1.1.0)
+      openssl (>= 0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/networking_basic
+  specs:
+    networking_basic (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/nodejs
+  specs:
+    nodejs (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/phantomjs
+  specs:
+    phantomjs (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/postgresql
+  specs:
+    postgresql (0.11.2)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/ragel
+  specs:
+    ragel (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/ramfs
+  specs:
+    ramfs (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/sysctl
+  specs:
+    sysctl (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/unarchivers
+  specs:
+    unarchivers (0.0.0)
+
+PATH
+  remote: vendor/travis-cookbooks/ci_environment/xserver
+  specs:
+    xserver (0.0.0)
+
+DEPENDENCIES
+  build-essential (>= 0)
+  chromium (>= 0)
+  cmake (>= 0)
+  firefox (>= 0)
+  imagemagick (>= 0)
+  libffi (>= 0)
+  libgdbm (>= 0)
+  libncurses (>= 0)
+  libossp-uuid (>= 0)
+  libqt4 (>= 0)
+  mysql (>= 0)
+  networking_basic (>= 0)
+  nodejs (>= 0)
+  phantomjs (>= 0)
+  pivotal_ci (>= 0)
+  postgresql (>= 0)
+  ragel (>= 0)
+  ramfs (>= 0)
+  sysctl (>= 0)
+  unarchivers (>= 0)
+  xserver (>= 0)
+

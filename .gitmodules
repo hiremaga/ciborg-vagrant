@@ -1,0 +1,3 @@
+[submodule "vendor/travis-cookbooks"]
+	path = vendor/travis-cookbooks
+	url = https://github.com/hiremaga/travis-cookbooks.git
