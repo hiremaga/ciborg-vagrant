@@ -29,7 +29,7 @@ The digital_ocean provide configuration in the `Vagrantfile` needs a few environ
 	export DIGITAL_OCEAN_API_KEY=YourDigitalOceanClientID
 	export SSH_PRIVATE_KEY_PATH=/Users/you/.ssh/id_rsa
 
-Get the curl-buldle CA
+Get the curl-bundle CA
 
 	brew install curl-ca-bundle
 	echo 'export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt' >> .env
