@@ -14,6 +14,7 @@ Vagrant.configure('2') do |config|
       provider.client_id = ENV['DIGITAL_OCEAN_CLIENT_ID']
       provider.api_key   = ENV['DIGITAL_OCEAN_API_KEY']
       provider.ca_path   = ENV['SSL_CERT_FILE']
+      provider.size      = '2GB'
     end
   end
 
