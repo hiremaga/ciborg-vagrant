@@ -48,5 +48,5 @@ Add the precise64 Digital Ocean box
 Bring up your VM
 
 	source .env
-	vagrant remote up --provider=digital_ocean
+	vagrant up remote --provider=digital_ocean
 
