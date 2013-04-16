@@ -1,5 +1,7 @@
 ## Installation
 
+Install Vagrant and VirtualBox
+
 Clone this repository recursively to get the travis cookbooks
 
 	git clone git@github.com:hiremaga/ciborg-vagrant.git --recursive
@@ -7,7 +9,7 @@ Clone this repository recursively to get the travis cookbooks
 Setup your cookbooks directory with Librarian Chef
 
 	bundle
-	bundle exec librarian-chef
+	bundle exec librarian-chef install
 
 Create a new VM, either locally with VirtualBox or remotely with Digital Ocean.
 
@@ -19,7 +21,7 @@ Add the precise64 VirtualBox box
 
 Bring up your VM
 
-	vagrant local up
+	vagrant up local
 
 ### Digital Ocean
 
